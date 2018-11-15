@@ -1,0 +1,26 @@
+.Message-continue-link:visited {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+p.Message-Message {
+  font-size: large;
+  text-align: center;  
+  }
+
+p.Form-Form {
+  text-align: center;
+  font-size: large;
+}
+
+body {
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: black;
+    margin-left: 0;
+    margin-top: 7em;
+}
+
+

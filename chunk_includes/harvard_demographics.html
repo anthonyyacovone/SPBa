@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Experiment Questionaire </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    p {
+      text-align: left;    }
+    
+    body {
+      background: black;
+      text-align: left;
+      font-size: 88%;
+      font-family: Century Gothic;
+      text-align: left;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .body{
+      width: 100%;
+    }
+
+    form{
+      margin: -100 auto 10;
+      width: 90%;
+      clear: both;
+      padding: 2%;
+      border: 1px;
+      border-style: solid;
+      background-color: black;
+    }
+
+    input[type=submit] {
+      width: 135px;
+      height: 70px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+
+
+<body class="body">
+
+<!--
+BEFORE THE PAGE CONTENT
+You might want to cache the images you are using in the experiment
+if timings are going to be recorded during the experiment.
+Below is an example of how to load an image without showing it.
+-->
+<div style="display:none">
+  <!-- List images here in the same syntax -->
+  <!-- <img src = "___image src____" /> -->
+  <img src = "http://www.sjsu.edu/linguistics/pics/lld_wordle_660px.jpg" />
+</div>
+
+
+
+<!-- Start of the actual, visible body of the file -->
+<form style="width: 40em;">
+
+<table style="width: 45em;">
+<tbody>
+<h2> DEMOGRAPHIC SURVEY </h2>
+<tr style="height: 10px;">
+<td style="width: 688px; height: 100px;" colspan="2">
+<p><em>Please complete this short questionnaire about your linguistic background before beginning the experiment. </em><em>Please answer the questions accurately; your responses will not affect compensation for this HIT.</em></p>
+</td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 438px; height: 19px;">Please select a gender:</td>
+<td style="width: 250px; height: 19px;"><input name="gender" type="radio" value="female" /><label for="female">Female</label> <input name="gender" type="radio" value="male" /><label for="male">Male</label> <input name="gender" type="radio" value="trans" /><label for="trans">Trans</label> <input name="gender" type="radio" value="other" /><label for="other">Other</label></td>
+</tr>
+<tr style="height: 19px;">
+<td style="width: 438px; height: 30px;">Please indicate your handedness:</td>
+<td style="width: 250px; height: 30px;"><input name="hand" type="radio" value="left" /><label for="female">Left</label> <input name="hand" type="radio" value="right" /><label for="right">Right</label> <input name="hand" type="radio" value="both" /><label for="both">Both</label></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 438px; height: 30px;">What is your age?</td>
+<td style="width: 250px; height: 30px;"><textarea cols="40" name="age" rows="1"></textarea></td>
+</tr>
+<tr style="height: 37px;">
+<td style="width: 438px; height: 30px;">What is your native language (first language you learned)?</td>
+<td style="width: 250px; height: 30px;"><textarea cols="40" name="natlang" rows="1"></textarea></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 438px; height: 30px;">What language do your parents speak?</td>
+<td style="width: 250px; height: 30px;"><textarea cols="40" name="parentlang" rows="1"></textarea></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 438px; height: 30px;">What is your dominant language?</td>
+<td style="width: 250px; height: 30px;"><textarea cols="40" name="domlang" rows="1"></textarea></td>
+</tr>
+<tr style="height: 23px;">
+<td style="width: 438px; height: 30px;">Do you speak any other languages?</td>
+<td style="width: 250px; height: 30px;"><textarea cols="40" name="otherlang" rows="1"></textarea></td>
+</tr>
+<tr style="height: 64px;">
+<td style="width: 438px; height: 60px;">What device are you using to complete this experiment<br /> (e.g. tablet, mobile phone, laptop, etc)?</td>
+<td style="width: 250px; height: 60px;"><textarea cols="40" name="device" rows="2"></textarea></td>
+</tr>
+</tbody>
+</table></form>
+  </html>
